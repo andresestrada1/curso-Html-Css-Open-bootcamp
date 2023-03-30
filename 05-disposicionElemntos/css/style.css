@@ -1,0 +1,14 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagen {
+    flex-wrap: wrap;
+}
+
+.animal {
+    width: 300px;
+    
+}
+

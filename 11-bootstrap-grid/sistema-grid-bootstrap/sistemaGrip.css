@@ -1,0 +1,25 @@
+.container {
+    padding: 2rem;
+    
+}
+
+.row {
+    gap: 1rem;
+}
+
+.col {
+    background-color: aqua;
+    gap: 2rem;
+}
+
+.col-md {
+    background-color: aquamarine;
+}
+
+.col-lg {
+    background-color: bisque;
+}
+
+.col-xl {
+    background-color: blue;
+}

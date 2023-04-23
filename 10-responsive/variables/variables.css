@@ -1,0 +1,10 @@
+:root {
+    --color1:red;
+    --tamaño:5rem;
+}
+
+.titulo{
+    color: var(--color1);
+    font-size: var(--tamaño);
+    
+}

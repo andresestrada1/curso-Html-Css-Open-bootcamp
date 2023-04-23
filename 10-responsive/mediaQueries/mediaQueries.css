@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+    color: black;
+    font-size: 2rem;
+}
+
+/* hace referencia a all, pero se puede acceder a screen, print, speech*/
+@media screen and (max-width: 300px) {
+    h1 {
+        color:blue;
+    }
+}
+
+@media screen and (min-width:250px) {
+    p {
+        color:green;
+    }
+}
+
+@media (orientation : landscape) {
+    p {
+        color:coral;
+    }
+}

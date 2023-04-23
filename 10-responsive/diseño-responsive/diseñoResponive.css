@@ -1,0 +1,32 @@
+.contenedor {
+    border: solid black 1px;
+    padding: 1rem;
+    display: flex;
+    align-content: space-between;
+    gap: 5rem;
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    border: solid red 1px;
+    align-content: space-around;
+    gap: 2rem;
+    background-color: bisque;
+}
+
+.seccion {
+    flex-grow: 1;
+    border: solid green 1px;
+    background-color: gray;
+
+}
+
+@media screen and (min-width: 650px) {
+    .barra {
+        flex-direction: row;
+    }
+    .contenedor{
+        flex-direction: column-reverse;
+    }
+}

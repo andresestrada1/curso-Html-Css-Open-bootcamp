@@ -1,0 +1,48 @@
+$text-color: #433939;
+@mixin formato-texto($bg-color:#cfb3b3) {
+    width: 50rem;
+    color: $text-color;
+    text-transform: uppercase;
+    background-color: $bg-color;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    background-color: aquamarine;
+    min-height: 100vh;
+    padding: 0.5rem ;
+}
+
+h1 {
+    margin: 0;
+    @include formato-texto ();
+}
+
+p {
+    @include formato-texto(#9f3030);
+
+}
+
+.listado {
+    background-color: burlywood;
+    width: 10rem;
+    padding: 0.5;
+
+    ul {
+        margin: 0 0.5rem;
+
+        li {
+            list-style: none;
+
+            &:hover {
+                color: blue;
+            }
+        }
+    }
+}
